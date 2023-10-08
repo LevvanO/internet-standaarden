@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-body{
+
+.hero {
     height: 100vh;
     background-color: white;
     background-image: url(images/basketbal\ ye\ buddy.jpg);
@@ -12,129 +13,93 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-main section h1{
-    color: white;
-    padding-right: 1em;
-    padding-top: 6em;
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+  
 }
-main section p{
-    padding-right: 0em;
-    color: white;
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%; 
+ }
+ header img{
+     max-width: 150px;
+ }
+ ul{
+     font-weight: bold;
+     display: flex;
+     gap: 2em;
+     margin-top: 50px;
+ }
+ ul li:hover {
+     scale: 1.05;
+     color: white;
+ }
+ a:hover{
+    color: orange;
 }
-h1{
-    color: black;
-    padding-top: 15em;
-    padding-left: 4em;
+article p{
+   display: flex;
+   justify-content: center;
+   color: white;
 }
-p{
-    color: black;
-    padding-right: 75em;
-    padding-left: 8em;
-    padding-bottom: 10em;
+section img {
+   max-width: 60%;
+   object-fit: scale-down;
 }
+section img:hover{
+    transform: scale(1.05) rotate(-10deg);
+}
+h2{
+    font-size: xx-large;
+    padding-bottom: 5%;
+}
+h3{
+    font-size: xx-large;
+}
+h4{
+    font-size: xx-large;
+}
+h5{
+    font-size: xx-large;
+}
+
 footer{
     padding-top: 40em;
     text-align: center;
     padding-bottom: 5em;
     font-weight: bold;
 }
-
-li{
-    list-style: none;
-
-}
-main img{
-    position: absolute;left: 1000px; top: 1250px;
-    padding-bottom: 20em;   
-}
-.college{
-    padding-top: 55em;
-}
 a{
     text-decoration: none;
     color: white;
     font-size: 1rem;
-
 }
-
-a:hover{
-    color: orange;
-
-}
-/* HEADER */
-header{
-    position: relative;
-    padding: 0 2rem;
-}
-nav {
-    width: 100%;
-    height: 60px;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
- header h1{
-    font-size: 2.5rem;
-    font-weight: bold;
+h1{
     color: white;
-    margin-bottom: 10em;
-}
-ul{
-    font-weight: bold;
     display: flex;
-    gap: 2rem;
-    margin-left: 70em;
-    margin-bottom: 60em;
-    
-}
-ul:hover {
-    scale: 1.05;
-    padding-right: 10em;
-    color: white;
-}
-/*SECTION*/
-section{
-    height: calc(100vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
+    margin-top: 30%;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px  orange;
 }
-section h1{
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.ote   {
+    max-width: 40%;
 }
-/*CONTACT*/
-.body1{
-    position: relative;
-    height: 100vh;
-    background-color: white;
-    background-image: url(images/basketbal\ banner.png); 
-    background-repeat: no-repeat;
-    height: 10em;
+.ote:hover{
+    transform: scale(1.05) rotate(10deg);
 }
-article h2 {
-    font-size: 4em;
-    text-align: center;
-    padding-top: 3em;
-    text-shadow: 2px 2px 4px #000000;
+.Contact img{
+    max-width: 50%;
 }
-article p {
-    color: black;
-    font-size: medium;
-    margin-top: 10em;
-    padding-top: 5em;
-    padding-left: 10em;
-    padding-bottom: 5px;
-    font-weight: bold;
+.Contact h2{
+    font-size: 3em;
 }
-img{
-    position: absolute;left: 1100px; top: 550px;
-    padding-bottom: 20em; 
-    width: 700px;
-    height: auto;
-}
+    
