@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.otee {
+    position: absolute;
+    top: 800px; 
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-size: cover;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-bottom: 3%;
+    background-image: url(images/basketbal\ ye\ buddy.jpg);
+    background-size: cover;
+ }
+
+.collegebbal {
+    background-image: url(images/output-onlinepngtools.png);
+ }
+
+.otegleague {
+    background-image: url(images/652334_v2.jpg);
+    background-position-y: 35%;
+ }  
+
+.college {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-align: center;
+ }
+
+.college2 img {
+    max-width: 400px;
+ }
+
+article p {
+    color: black;
+    margin-left: 41%;
+ }
+ 
+header img {
+     max-width: 150px;
+ }
+
+ul {
+     font-weight: bold;
+     display: flex;
+     gap: 2em;
+     margin-top: 50px;
+ }
+
+ul li:hover {
+     scale: 1.05;
+     color: white;
+ }
+a:hover {
+    color: orange;
+}
+
+section h3 {
+    margin-top: 15%;
+}
+
+section img {
+   max-width: 60%;
+   object-fit: scale-down;
+}
+
+section img:hover {
+    transform: scale(1.05) rotate(-10deg);
+}
+
+h2 {
+    font-size: 2em;
+    padding-bottom: 5%;
+}
+
+h3, h4, h5 {
+    font-size: xx-large;
+}
+
+li { 
+    list-style: none;
+}
+
+footer {
+    padding-top: 40em;
+    text-align: center;
+    padding-bottom: 5em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px  orange;
+}
+
+.college img {
+    max-width: 400px;
+}
+
+.ote   {
+    max-width: 40%;
+}
+
+.ote:hover {
+    transform: scale(1.05) rotate(10deg);
+}
+
+.otee img {
+    max-width: 50%;
+}
+
+.otee h2 {
+    font-size: 3em;
+}
+    
